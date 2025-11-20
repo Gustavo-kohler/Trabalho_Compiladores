@@ -1,0 +1,23 @@
+# --- Bytecode (Arquivos compilados pelo Python) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Ambientes Virtuais (NUNCA suba isso) ---
+venv/
+env/
+.env
+.venv/
+
+# --- IDEs e Editores (Configurações locais) ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs e Bancos de dados locais ---
+*.log
+*.sqlite3
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
