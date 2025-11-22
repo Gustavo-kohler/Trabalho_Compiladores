@@ -120,7 +120,7 @@ class Parser:
                 ord('+'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],
                 ord('-'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],
                 ord(';'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],
-                ord(')'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],  # Follows
+                ord(')'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"], 
                 ord('<'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],
                 ord('>'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],
                 Tag.LE: ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],
