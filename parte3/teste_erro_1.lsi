@@ -1,0 +1,24 @@
+def soma(int A, int B) {
+    int R;
+    R = A + B;
+    return R;
+}
+
+def principal() {
+    int A, B, C
+    A = 10;
+
+    print A;
+
+    B = A + 10;
+
+    print B;
+
+    if (B > 20) {
+        C = 1;
+    } else {
+        C = 0;
+    }
+
+    return;
+}

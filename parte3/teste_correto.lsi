@@ -1,0 +1,96 @@
+def soma(int A, int B) {
+    int Res;
+    Res = A + B;
+    return Res;
+}
+
+def subtracao(int A, int B) {
+    int Res;
+    Res = A - B;
+    return Res;
+}
+
+def multiplicacao(int A, int B) {
+    int Res;
+    if (A == 0) {
+        Res = 0;
+    } else {
+        if (B == 0) {
+            Res = 0;
+        } else {
+            Res = A * B;
+        }
+    }
+    return Res;
+}
+
+def checaPar(int N) {
+    int Quociente, Prova, Res;
+
+    Quociente = N / 2;
+    Prova = Quociente * 2;
+
+    if (Prova == N) {
+        Res = 1;
+    } else {
+        Res = 0;
+    }
+    return Res;
+}
+
+def fatorial(int N) {
+    int F, I, Res;
+    F = 1;
+    I = 1;
+
+    if (N < 2) {
+        {
+            Res = 1;
+            return Res;
+        }
+    } else {
+        {
+            F = N;
+            I = N - 1;
+
+            if (I > 0) {
+                 {
+                     F = F * I;
+                     I = I - 1;
+                 }
+            }
+
+            return F;
+        }
+    }
+}
+
+def principal() {
+    int X, Y, Z, W;
+    int Flag;
+
+    X = 10;
+    Y = 20;
+
+    print X;
+    print Y;
+
+    Z = soma(X, Y);
+    print Z;
+
+    W = multiplicacao(X, Y);
+    print W;
+
+    Flag = checaPar(W);
+
+    if (Flag == 1) {
+        print 1000;
+    } else {
+        print 999;
+    }
+
+    Z = subtracao(Y, X);
+    print Z;
+
+    return;
+}

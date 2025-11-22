@@ -1,0 +1,30 @@
+def checaValor(int Val) {
+    int Res;
+    Res = 0;
+
+    if (Val > 0) {
+        {
+            print Val;
+            Res = 1;
+        }
+    }
+
+    return Res;
+}
+
+def principal() {
+    int X, Y;
+    X = 50;
+
+    if (X == 50) {
+        {
+            Y = 100;
+            print Y;
+        }
+    else {
+        Y = 0;
+    }
+
+    print X;
+    return;
+}

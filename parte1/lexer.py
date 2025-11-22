@@ -22,7 +22,7 @@ class Tag:
     KW_PRINT = 260
     KW_RETURN = 261
 
-    #Tokens complexos
+    #Tokens complexosa
     ID = 262
     NUM = 263
 

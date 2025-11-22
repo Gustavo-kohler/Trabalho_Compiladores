@@ -1,0 +1,23 @@
+def calculo(int A) {
+    int B;
+    B = A * 2;
+    return B;
+}
+
+def principal() {
+    int X, Z;
+    X = 10;
+    Z = 20;
+
+    print X;
+    print Z;
+
+    if (X < Z) {
+        X = X + 1;
+    }
+
+    100 = X;
+
+    print X;
+    return;
+}
