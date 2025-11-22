@@ -21,7 +21,7 @@ Implementação completa do Trabalho 1 (Analisador Léxico e Sintático) para a 
 O projeto está organizado da seguinte forma:
 
 ```text
-/Trabalho (Raiz)
+/trabalho (Raiz)
 │
 ├── README.md                           # Este arquivo com instruções
 │
@@ -47,7 +47,7 @@ O projeto está organizado da seguinte forma:
 
 ## Instruções de Execução
 
-Recomendamos executar todos os comandos **a partir da pasta raiz** (`/compiladores`) utilizando a flag `-m` do Python. Isso garante que os imports entre a `parte3` e a `parte1` funcionem corretamente.
+Recomendamos executar todos os comandos **a partir da pasta raiz** (`/trabalho`) utilizando a flag `-m` do Python. Isso garante que os imports entre a `parte3` e a `parte1` funcionem corretamente.
 
 ### Parte 1: Analisador Léxico
 
