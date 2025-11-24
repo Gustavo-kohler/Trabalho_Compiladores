@@ -1,3 +1,13 @@
+"""
+Disciplina: Compiladores - INE5622
+Trabalho 1 - Parte 3: Analisador Sintático
+Grupo:
+    - Gustavo Luiz Kohler
+    - Cleverson Borges dos passos
+    - Breno Juliano Sayão
+"""
+
+
 from parte1.lexer import Lexer, Tag
 import sys
 
@@ -120,7 +130,7 @@ class Parser:
                 ord('+'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],
                 ord('-'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],
                 ord(';'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],
-                ord(')'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"], 
+                ord(')'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],
                 ord('<'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],
                 ord('>'): ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],
                 Tag.LE: ["TERM_LINHA", "NUMEXPR_LINHA", "EXPR_LINHA"],
